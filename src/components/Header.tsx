@@ -14,17 +14,11 @@ const Header = () => {
           
           {/* Navigation */}
           <nav className="hidden md:flex items-center gap-6">
-            <a href="#" className="text-foreground hover:text-primary transition-colors">
+            <a href="/" className="text-foreground hover:text-primary transition-colors">
               Início
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Filmes
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Séries
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              Categorias
+            <a href="/auth" className="text-muted-foreground hover:text-primary transition-colors">
+              Admin
             </a>
           </nav>
         </div>
